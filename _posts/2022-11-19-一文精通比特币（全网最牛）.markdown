@@ -2,7 +2,7 @@
 layout: post
 title:  "小白也能精通比特币（全网最牛）"
 date:   2022-11-19 16:43:15 +0800
-categories: 区块链
+categories: blockchain
 ---
 
 # 小白也能精通比特币（全网最牛）
