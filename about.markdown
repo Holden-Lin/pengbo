@@ -4,15 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+科技之树快速高长，遮天蔽日，人类反成囚徒。人类的群体不断掌握力量，人类的个人却不断渺小。
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+这个趋势还在加剧。更视觉化地、更善于抢夺注意力和深度思考的媒体，更煽情的、更善于操控乌合之众的自私政治家，凡此种种，都不断放大人类缺陷，让个体看似在享受文明，实则越发物化。
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+希望意识这沦丧趋势的人，能用至善的思想，内在的力量，前沿的工具，让自己成为无往不破的个体，蓬勃向美，力挽狂澜。
 
+希望这个网站能聚集一批这样的人，给你们力量。
 
-[jekyll-organization]: https://github.com/jekyll
