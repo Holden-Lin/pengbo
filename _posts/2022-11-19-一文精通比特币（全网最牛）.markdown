@@ -39,7 +39,7 @@ categories: blockchain
 简单而言，哈希函数就是这样的一种函数，它可以将几乎任意长度的信息输入，转换成独特的、固定长度的 信息输出。比如，比特币使用的SHA256哈希函数，可以将任意信息，转换成256位的二进制输出(显示在屏幕上是64个字符）。如下图所示：
 
 
-![sha256_holden](assets/sha256_holden.png)
+![sha256_holden](/assets/images/sha256_holden.png)
 
 
 那么这玩意儿有什么用呢？这就要结合它的特性来谈了。
@@ -48,7 +48,7 @@ categories: blockchain
 
 哈希函数的第一个特性就是非常敏感。比如，我把输入从holden改成Holden，一个大小写的改变，输出就完全不一样了：
 
-![截屏2022-01-05 下午6.29.15](/Users/holden/my_documents/Writing/personal_site/flourish/_posts/截屏2022-01-05 下午6.29.15.png)
+![sha256_holden_大写](assets/images/sha256_holden_大写.png)
 
 在比特币的世界，历史发生的所有交易记录，都会让哈希函数给“哈一下”，输出一个哈希结果，所有人都保存下来。如果有恶意用户稍微更改了历史记录，比如抹掉他过去的某一笔交易，试图忽悠大家取信它改过的记录，大家把交易哈希一经对比，就会发现明显不同。
 
@@ -85,7 +85,7 @@ H(所有历史交易记录 + N) = A，求N是多少。我们只能从0开始，�
 
 下面是一个简化的区块链表示。可以看到，每个区块都包含前面区块的哈希结果，工作量证明（解题结果N）被层层叠加到当前最长的区块链里。
 
-![chain_of_blocks](/Users/holden/my_documents/Writing/personal_site/flourish/_posts/chain_of_blocks.png)
+![chain_of_blocks](/assets/images/chain_of_blocks.png)
 
 那么怎么理解一条层层叠加的数据链，是无比安全的呢？假设心怀不轨的隔壁老王欲图将一枚比特币重复支付，他也知道节点们解题时就会发现这枚比特币已经用过了，因此隔壁老王必须想办法修改历史交易记录，比如删除这枚比特币的历史交易、或者虚增自己账户下的比特币数量，从而躲过节点的验证。要做到这些，隔壁老王就得：
 
