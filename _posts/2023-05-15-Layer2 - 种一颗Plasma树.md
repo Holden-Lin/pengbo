@@ -5,8 +5,6 @@ date:   2023-05-15 16:43:15 +0800
 categories: blockchain
 ---
 
-# Layer2 - 种一颗Plasma树
-
 在我们探索Layer2时，我们无法忽视两位关键人物，比特币闪电网络的创始人Joseph Poon和Thaddeus Dryja，以及以太坊的Raiden网络的开发者Heiko Hees。
 
 他们所引领的状态通道(state channel)技术，使得交易可以在不涉及主区块链的情况下进行。只有在交易全部结束时，他们才将最终结果提交到主链进行安全验证。这种创新降低了交易费用，减轻了主链的负担，并维护了安全性。
