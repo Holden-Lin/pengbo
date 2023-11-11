@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "什么是生物识别Proof of Personhood"
+title:  "[番外]Worldcoin的争议 - 生物识别Proof of Personhood"
 date:   2023-7-29 08:14:15 +0800
 categories: blockchain
 ---
